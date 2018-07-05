@@ -90,7 +90,7 @@ static CGFloat const kLineWidth = 0.5;//线宽
     //算Y轴的单元值
     //x轴每一分钟一个点
     //每一个横坐标所占单元
-    CGFloat unitX = width/240.f;
+    CGFloat unitX = width/12;
     NSMutableArray *pointArr = [NSMutableArray array];
     NSMutableArray *colorArr = [NSMutableArray arrayWithCapacity:1];
     if (self.dataArr.count > 0) {
